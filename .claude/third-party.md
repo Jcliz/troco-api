@@ -9,6 +9,7 @@ Auditoria feita em 2026-11-23.
 | Skill | Origem (commit) | Licença | Observações |
 |---|---|---|---|
 | `tlc-spec-driven` | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) `d0c46bf`, pasta `packages/skills-catalog/skills/(development)/tlc-spec-driven` | MIT (catálogo) / CC-BY-4.0 (skill, autor Felipe Rodrigues) | Scripts Python locais de validação; `check_proofs.py` executa os comandos de prova escritos na própria spec. Sem rede. |
+| `grill-me` e `grilling` | [mattpocock/skills](https://github.com/mattpocock/skills) `abeeaf9`, pastas `skills/productivity/grill-me` e `skills/productivity/grilling` | MIT | Só texto. `grill-me` só roda quando chamada (`/grill-me`) e carrega `grilling`. Ficou de fora `grill-with-docs`: ela usa a skill `domain-modeling`, que cria `GLOSSARY.md` na raiz e ADRs num formato próprio, em conflito com `docs/adr/` e o glossário de `docs/conventions.md`. |
 
 Skills de design e frontend (impeccable, frontend-design, ip-as-logo e as do Emil Kowalski) ficaram só no troco-front, porque a API não tem interface.
 
