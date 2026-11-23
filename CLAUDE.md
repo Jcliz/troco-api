@@ -30,6 +30,7 @@ Use a skill **`implement-task`** (`/implement-task API-07`). Resumo:
 | `skills/implement-task/` | Passo a passo de uma tarefa do plano até o PR |
 | `skills/new-api-module/` | Como criar um módulo de domínio no padrão do projeto |
 | `skills/prisma-migration/` | Como mudar o schema e criar migração com segurança |
+| `third-party.md` | Skills de terceiros em `skills/`, plugins habilitados no `settings.json`, com origem e commit auditado |
 
 ### Lembretes
 
