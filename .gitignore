@@ -155,3 +155,10 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# env (só o .env.example vai para o Git)
+.env.*
+!.env.example
+
+# claude code (preferências pessoais)
+.claude/settings.local.json
